@@ -4,7 +4,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <h1>
         React Snake With <span>Hooks</span>
       </h1>
