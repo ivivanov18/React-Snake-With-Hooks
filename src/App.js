@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-
-const GRID_SIZE = 35;
-const GRID = [];
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -10,6 +8,7 @@ function App() {
       <h1>
         React Snake With <span>Hooks</span>
       </h1>
+      <Main />
     </div>
   );
 }
